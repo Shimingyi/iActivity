@@ -14,7 +14,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+<<<<<<< HEAD
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+=======
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+>>>>>>> c38d613f6d9238cba998c83746e9a12a4747564a
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>

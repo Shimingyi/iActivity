@@ -11,7 +11,11 @@ import javax.persistence.Table;
 @Table(name="ia_user")
 public class User {
 
+<<<<<<< HEAD
 	private Integer id;
+=======
+	private int id;
+>>>>>>> c38d613f6d9238cba998c83746e9a12a4747564a
 	private String nickname;
 	private String name;
 	private String username;
@@ -20,10 +24,17 @@ public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
+<<<<<<< HEAD
 	public Integer getId() {
 		return id;
 	}
 	public void setId(Integer id) {
+=======
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+>>>>>>> c38d613f6d9238cba998c83746e9a12a4747564a
 		this.id = id;
 	}
 	

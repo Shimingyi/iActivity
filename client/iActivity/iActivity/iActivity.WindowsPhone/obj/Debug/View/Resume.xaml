@@ -1,0 +1,100 @@
+﻿<Page
+    x:Class="iActivity.View.Resume"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:iActivity.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.RowSpan="2" Canvas.ZIndex="3" Visibility="{Binding StatuVisibile}">
+            <Border Background="Black" Opacity="0.4"/>
+            <Grid>
+                <TextBlock Text="{Binding StatuText, Mode=TwoWay}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+                <ProgressBar Margin="30,20,30,0" VerticalAlignment="Center" IsIndeterminate="True"/>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="0" Background="{StaticResource Theme}">
+            <TextBlock Text="RESUME" Foreground="White" VerticalAlignment="Center" FontSize="50" Margin="10,0" FontWeight="Bold"/>
+            <TextBlock Text="{Binding LoginInput, Mode=TwoWay}" Foreground="White" Margin="10" VerticalAlignment="Bottom"/>
+        </Grid>
+        <ScrollViewer Grid.Row="1">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="95"/>
+                    <RowDefinition Height="95"/>
+                    <RowDefinition Height="95"/>
+                    <RowDefinition Height="95"/>
+                    <RowDefinition Height="95"/>
+                    <RowDefinition Height="95"/>
+                    <RowDefinition Height="95"/>
+                    <RowDefinition Height="95"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Vertical" Margin="10">
+                    <TextBlock Text="PHONE :" Foreground="Gray"/>
+                    <Border BorderThickness="0,0,0,2" BorderBrush="{StaticResource Theme}">
+                        <TextBox Text="{Binding PhoneInput, Mode=TwoWay}" SelectionHighlightColor="White"/>
+                    </Border>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Vertical" Margin="10">
+                    <TextBlock Text="MAIL :" Foreground="Gray"/>
+                    <Border BorderThickness="0,0,0,2" BorderBrush="{StaticResource Theme}">
+                        <TextBox Text="{Binding MailInput, Mode=TwoWay}" SelectionHighlightColor="White"/>
+                    </Border>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Orientation="Vertical" Margin="10">
+                    <TextBlock Text="SEX :" Foreground="Gray"/>
+                    <Border BorderThickness="0,0,0,2" BorderBrush="{StaticResource Theme}">
+                        <TextBox Text="{Binding SexInput, Mode=TwoWay}" SelectionHighlightColor="White"/>
+                    </Border>
+                </StackPanel>
+                <StackPanel Grid.Row="3" Orientation="Vertical" Margin="10">
+                    <TextBlock Text="BIRTH :" Foreground="Gray"/>
+                    <Border BorderThickness="0,0,0,2" BorderBrush="{StaticResource Theme}">
+                        <DatePicker Date="{Binding BirthInput}" Foreground="Black" BorderThickness="0" BorderBrush="White" RequestedTheme="Light"/>
+                    </Border>
+                </StackPanel>
+                <StackPanel Grid.Row="4" Orientation="Vertical" Margin="10">
+                    <TextBlock Text="STUDENT NUMBER :" Foreground="Gray"/>
+                    <Border BorderThickness="0,0,0,2" BorderBrush="{StaticResource Theme}">
+                        <TextBox Text="{Binding StunumInput, Mode=TwoWay}" SelectionHighlightColor="White"/>
+                    </Border>
+                </StackPanel>
+                <StackPanel Grid.Row="5" Orientation="Vertical" Margin="10">
+                    <TextBlock Text="ID CARD :" Foreground="Gray"/>
+                    <Border BorderThickness="0,0,0,2" BorderBrush="{StaticResource Theme}">
+                        <TextBox Text="{Binding IdcardInput, Mode=TwoWay}" SelectionHighlightColor="White"/>
+                    </Border>
+                </StackPanel>
+                <StackPanel Grid.Row="6" Orientation="Vertical" Margin="10">
+                    <TextBlock Text="COLLAGE :" Foreground="Gray"/>
+                    <Border BorderThickness="0,0,0,2" BorderBrush="{StaticResource Theme}">
+                        <TextBox Text="{Binding CollegaInput, Mode=TwoWay}" SelectionHighlightColor="White"/>
+                    </Border>
+                </StackPanel>
+                <StackPanel Grid.Row="7" Orientation="Vertical" Margin="10">
+                    <TextBlock Text="YEAR :" Foreground="Gray"/>
+                    <Border BorderThickness="0,0,0,2" BorderBrush="{StaticResource Theme}">
+                        <TextBox Text="{Binding YearInput, Mode=TwoWay}" SelectionHighlightColor="White"/>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+    
+    <Page.BottomAppBar>
+        <CommandBar Background="{StaticResource Theme}" >
+            <AppBarButton Icon="Save" Label="SAVE" Command="{Binding saveCommand}"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
+

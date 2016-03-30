@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="iActivity.View.Login"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:iActivity.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White"
+    RequestedTheme="Light">
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.RowSpan="2" Canvas.ZIndex="3" Visibility="{Binding StatuVisibile, Mode=TwoWay}">
+            <Border Background="Black" Opacity="0.4"/>
+            <Grid>
+                <TextBlock Text="{Binding StatuText, Mode=TwoWay}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+                <ProgressBar Margin="30,20,30,0" VerticalAlignment="Center" IsIndeterminate="True"/>
+            </Grid>
+        </Grid>
+        
+        <Grid Grid.Row="0" Background="{StaticResource Theme}">
+            <Image Source="ms-appx:///Assets/Backgroud/BeforeAnActivity.jpg" />
+            <Grid Background="Black" Canvas.ZIndex="2" Opacity="0.4"/>
+            <TextBlock Text="LOGIN" Canvas.ZIndex="3" Foreground="White" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,40" FontWeight="Bold" FontSize="30"/>
+            <TextBlock Text="Login to sync your activity :)" Canvas.ZIndex="3" Foreground="White" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20" FontSize="15"/>
+        </Grid>
+        <Grid Grid.Row="1" Background="{StaticResource White}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBox Grid.Row="0" Text="{Binding UsernameInput, Mode=TwoWay}" Margin="10,30,10,0" Height="40" PlaceholderText="USERNAME"/>
+            <PasswordBox Grid.Row="1" Password="{Binding PasswordInput, Mode=TwoWay}" Margin="10,20,10,20" Height="40" PlaceholderText="PASSWORD"/>
+            <Button Grid.Row="2" Command="{Binding loginCommand, Mode=TwoWay}" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="10,0,10,20" BorderThickness="0" Background="#FF265CAA" Content="Login" FontWeight="Bold" Foreground="White"/>
+            <TextBlock Grid.Row="2" Text="{Binding LoginText, Mode=TwoWay}" Margin="10,55" Foreground="#FFD14343"/>
+        </Grid>
+    </Grid>
+</Page>

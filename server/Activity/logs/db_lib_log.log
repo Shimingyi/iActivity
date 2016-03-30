@@ -1,0 +1,90 @@
+2015-11-23 00:45:31  [ main:21 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3f03c0ad: startup date [Mon Nov 23 00:45:31 CST 2015]; root of context hierarchy
+2015-11-23 00:45:31  [ main:161 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-11-23 00:45:33  [ main:1795 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-11-23 00:45:33  [ main:1806 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2015-11-23 00:45:33  [ main:1810 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2015-11-23 00:45:33  [ main:1812 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2015-11-23 00:45:33  [ main:1862 ] - [ INFO ]  HHH000044: Configuring from URL: file:/E:/Java/project/Activity/target/classes/hibernate.cfg.xml
+2015-11-23 00:45:33  [ main:1952 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2015-11-23 00:45:33  [ main:2318 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2015-11-23 00:45:33  [ main:2319 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2015-11-23 00:45:33  [ main:2343 ] - [ INFO ]  HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/iactivity?useUnicode=true&characterEncoding=UTF8
+2015-11-23 00:45:33  [ main:2344 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=root, password=****, autoReconnectForPools=true}
+2015-11-23 00:45:33  [ main:2345 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2015-11-23 00:45:33  [ main:2378 ] - [ INFO ]  MLog clients using log4j logging.
+2015-11-23 00:45:33  [ main:2617 ] - [ INFO ]  Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-11-23 00:45:34  [ main:2762 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@25b37300 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@eafd94b4 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9789ddcbk6d1mir7a8|2c6f2359, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@d462114b [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9789ddcbk6d1mir7a8|4460ccb7, jdbcUrl -> jdbc:mysql://localhost:3306/iactivity?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9789ddcbk6d1mir7a8|7b0036f2, numHelperThreads -> 3 ]
+2015-11-23 00:45:34  [ main:3269 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-11-23 00:45:34  [ main:3285 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-11-23 00:45:34  [ main:3311 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-11-23 00:45:34  [ main:3323 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2015-11-23 00:45:35  [ main:3671 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2015-11-23 00:45:35  [ main:3672 ] - [ INFO ]  HHH000102: Fetching database metadata
+2015-11-23 00:45:35  [ main:3679 ] - [ INFO ]  HHH000396: Updating schema
+2015-11-23 00:45:35  [ main:3727 ] - [ INFO ]  HHH000261: Table found: iactivity.ia_activity
+2015-11-23 00:45:35  [ main:3728 ] - [ INFO ]  HHH000037: Columns: [endtime, content, id, title, max, imgpath, begintime, mid]
+2015-11-23 00:45:35  [ main:3728 ] - [ INFO ]  HHH000108: Foreign keys: [fk44525256b28d467a]
+2015-11-23 00:45:35  [ main:3729 ] - [ INFO ]  HHH000126: Indexes: [fk44525256b28d467a, primary]
+2015-11-23 00:45:35  [ main:3747 ] - [ INFO ]  HHH000261: Table found: iactivity.ia_manager
+2015-11-23 00:45:35  [ main:3748 ] - [ INFO ]  HHH000037: Columns: [id, mail, username, level, nickname, password]
+2015-11-23 00:45:35  [ main:3748 ] - [ INFO ]  HHH000108: Foreign keys: []
+2015-11-23 00:45:35  [ main:3749 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2015-11-23 00:45:35  [ main:3769 ] - [ INFO ]  HHH000261: Table found: iactivity.ia_r_user_activity
+2015-11-23 00:45:35  [ main:3770 ] - [ INFO ]  HHH000037: Columns: [uid, id, jointime, aid]
+2015-11-23 00:45:35  [ main:3771 ] - [ INFO ]  HHH000108: Foreign keys: [fk5aa6a2cf34dcec66, fk5aa6a2cfd7aa75b6]
+2015-11-23 00:45:35  [ main:3771 ] - [ INFO ]  HHH000126: Indexes: [primary, fk5aa6a2cf34dcec66, fk5aa6a2cfd7aa75b6]
+2015-11-23 00:45:35  [ main:3794 ] - [ INFO ]  HHH000261: Table found: iactivity.ia_resume
+2015-11-23 00:45:35  [ main:3795 ] - [ INFO ]  HHH000037: Columns: [uid, id, stunum, mail, sex, phone, birth, college, idcard, year]
+2015-11-23 00:45:35  [ main:3795 ] - [ INFO ]  HHH000108: Foreign keys: [fk96214d34d7aa75b6]
+2015-11-23 00:45:35  [ main:3796 ] - [ INFO ]  HHH000126: Indexes: [fk96214d34d7aa75b6, primary]
+2015-11-23 00:45:35  [ main:3815 ] - [ INFO ]  HHH000261: Table found: iactivity.ia_user
+2015-11-23 00:45:35  [ main:3816 ] - [ INFO ]  HHH000037: Columns: [id, username, nickname, name, password]
+2015-11-23 00:45:35  [ main:3817 ] - [ INFO ]  HHH000108: Foreign keys: []
+2015-11-23 00:45:35  [ main:3818 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2015-11-23 00:45:35  [ main:3822 ] - [ INFO ]  HHH000232: Schema update complete
+2015-11-23 00:45:35  [ main:4488 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@25b37300 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@eafd94b4 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9789ddcbk6d1mir7a8|2c6f2359, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@d462114b [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9789ddcbk6d1mir7a8|4460ccb7, jdbcUrl -> jdbc:mysql://localhost:3306/iactivity?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9789ddcbk6d1mir7a8|7b0036f2, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2015-11-23 00:46:24  [ main:17 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@f5ebe2d: startup date [Mon Nov 23 00:46:24 CST 2015]; root of context hierarchy
+2015-11-23 00:46:25  [ main:121 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-11-23 00:46:26  [ main:1820 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-11-23 00:46:26  [ main:1841 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2015-11-23 00:46:26  [ main:1846 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2015-11-23 00:46:26  [ main:1849 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2015-11-23 00:46:26  [ main:1897 ] - [ INFO ]  HHH000044: Configuring from URL: file:/E:/Java/project/Activity/target/classes/hibernate.cfg.xml
+2015-11-23 00:46:26  [ main:1978 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2015-11-23 00:46:27  [ main:2319 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2015-11-23 00:46:27  [ main:2320 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2015-11-23 00:46:27  [ main:2344 ] - [ INFO ]  HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/iactivity?useUnicode=true&characterEncoding=UTF8
+2015-11-23 00:46:27  [ main:2345 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=root, password=****, autoReconnectForPools=true}
+2015-11-23 00:46:27  [ main:2345 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2015-11-23 00:46:27  [ main:2382 ] - [ INFO ]  MLog clients using log4j logging.
+2015-11-23 00:46:27  [ main:2629 ] - [ INFO ]  Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-11-23 00:46:27  [ main:2798 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@8a4177e0 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@1ba2dac0 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9789ddccpiqr3e9ki|a033c59, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@f2f864d5 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9789ddccpiqr3e9ki|6911d387, jdbcUrl -> jdbc:mysql://localhost:3306/iactivity?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9789ddccpiqr3e9ki|2cf31768, numHelperThreads -> 3 ]
+2015-11-23 00:46:28  [ main:3308 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-11-23 00:46:28  [ main:3324 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-11-23 00:46:28  [ main:3350 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-11-23 00:46:28  [ main:3360 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2015-11-23 00:46:28  [ main:3705 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2015-11-23 00:46:28  [ main:3705 ] - [ INFO ]  HHH000102: Fetching database metadata
+2015-11-23 00:46:28  [ main:3715 ] - [ INFO ]  HHH000396: Updating schema
+2015-11-23 00:46:28  [ main:3762 ] - [ INFO ]  HHH000261: Table found: iactivity.ia_activity
+2015-11-23 00:46:28  [ main:3765 ] - [ INFO ]  HHH000037: Columns: [endtime, content, id, title, max, imgpath, begintime, mid]
+2015-11-23 00:46:28  [ main:3766 ] - [ INFO ]  HHH000108: Foreign keys: [fk44525256b28d467a]
+2015-11-23 00:46:28  [ main:3767 ] - [ INFO ]  HHH000126: Indexes: [fk44525256b28d467a, primary]
+2015-11-23 00:46:28  [ main:3791 ] - [ INFO ]  HHH000261: Table found: iactivity.ia_manager
+2015-11-23 00:46:28  [ main:3792 ] - [ INFO ]  HHH000037: Columns: [id, mail, username, level, nickname, password]
+2015-11-23 00:46:28  [ main:3793 ] - [ INFO ]  HHH000108: Foreign keys: []
+2015-11-23 00:46:28  [ main:3794 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2015-11-23 00:46:28  [ main:3822 ] - [ INFO ]  HHH000261: Table found: iactivity.ia_r_user_activity
+2015-11-23 00:46:28  [ main:3823 ] - [ INFO ]  HHH000037: Columns: [uid, id, jointime, aid]
+2015-11-23 00:46:28  [ main:3823 ] - [ INFO ]  HHH000108: Foreign keys: [fk5aa6a2cf34dcec66, fk5aa6a2cfd7aa75b6]
+2015-11-23 00:46:28  [ main:3824 ] - [ INFO ]  HHH000126: Indexes: [primary, fk5aa6a2cf34dcec66, fk5aa6a2cfd7aa75b6]
+2015-11-23 00:46:28  [ main:3853 ] - [ INFO ]  HHH000261: Table found: iactivity.ia_resume
+2015-11-23 00:46:28  [ main:3853 ] - [ INFO ]  HHH000037: Columns: [uid, id, stunum, mail, sex, phone, birth, college, idcard, year]
+2015-11-23 00:46:28  [ main:3854 ] - [ INFO ]  HHH000108: Foreign keys: [fk96214d34d7aa75b6]
+2015-11-23 00:46:28  [ main:3855 ] - [ INFO ]  HHH000126: Indexes: [fk96214d34d7aa75b6, primary]
+2015-11-23 00:46:28  [ main:3878 ] - [ INFO ]  HHH000261: Table found: iactivity.ia_user
+2015-11-23 00:46:28  [ main:3879 ] - [ INFO ]  HHH000037: Columns: [id, username, nickname, name, password]
+2015-11-23 00:46:28  [ main:3880 ] - [ INFO ]  HHH000108: Foreign keys: []
+2015-11-23 00:46:28  [ main:3881 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2015-11-23 00:46:28  [ main:3885 ] - [ INFO ]  HHH000232: Schema update complete
+2015-11-23 00:46:29  [ main:4504 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@8a4177e0 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@1ba2dac0 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9789ddccpiqr3e9ki|a033c59, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@f2f864d5 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9789ddccpiqr3e9ki|6911d387, jdbcUrl -> jdbc:mysql://localhost:3306/iactivity?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9789ddccpiqr3e9ki|2cf31768, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager

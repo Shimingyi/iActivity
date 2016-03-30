@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RUBBLY-PC</Machine>
+    <WindowsUser>明镒</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>db217b8a-4de0-4d19-bc70-fed261c55724</PackageIdentityName>
+    <IntermediateOutputPath>E:\windows phone\Universal\iActivity\iActivity\iActivity.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>B126A2D7D23F90CAC93E706E6AA70C618DD8F4BDCD09F06ADCF53BC784704B4B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>db217b8a-4de0-4d19-bc70-fed261c55724_1.0.0.0_neutral__14k4ck5nf225g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>db217b8a-4de0-4d19-bc70-fed261c55724_14k4ck5nf225g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>db217b8a-4de0-4d19-bc70-fed261c55724</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=明镒</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\windows phone\Universal\iActivity\iActivity\iActivity.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-10T16:28:55.323</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\windows phone\Universal\iActivity\iActivity\iActivity.Windows\bin\Debug\iActivity.Windows.exe">
+      <PackagePath>iActivity.Windows.exe</PackagePath>
+      <Modified>2015-11-10T16:40:28.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\windows phone\DLL\Bin\WinRT\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2014-10-20T12:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\windows phone\Universal\iActivity\iActivity\iActivity.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T02:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\windows phone\Universal\iActivity\iActivity\iActivity.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T02:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\windows phone\Universal\iActivity\iActivity\iActivity.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T02:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\windows phone\Universal\iActivity\iActivity\iActivity.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T02:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\windows phone\Universal\iActivity\iActivity\iActivity.Windows\bin\Debug\iActivity.Windows.xr.xml">
+      <PackagePath>iActivity.Windows.xr.xml</PackagePath>
+      <Modified>2015-11-10T16:37:08.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\windows phone\Universal\iActivity\iActivity\iActivity.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-11-10T16:28:54.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\windows phone\Universal\iActivity\iActivity\iActivity.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-11-10T16:37:08.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\windows phone\Universal\iActivity\iActivity\iActivity.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-11-10T16:28:54.965</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
